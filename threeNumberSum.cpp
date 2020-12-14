@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
+    // brute force approach - Time Complexity: O(n^3) | Space Complexity: O(n)
     vector<int> array={12, 3, 1, 2, -6, 5, -8, 6};
     int targetSum  = 0;
     int num = array.size();
